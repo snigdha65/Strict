@@ -1,0 +1,31 @@
+@media (max-width: 991px) {
+
+	header{
+		position: relative;
+	}
+	.strict-menu{
+		background: #15a4fa;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 1;
+		width: 100%;
+		display: none;
+	}
+	.strict-menu ul{
+		display: block;
+	}
+	.strict-menu ul li a{
+		color: #fff;
+		padding: 7px 20px;
+		display: block;
+	}
+	.menu-icon{
+		display: block;
+		text-align: right;
+	}
+	.menu-icon span{
+		font-size: 25px;
+	}
+
+}
